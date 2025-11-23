@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "smartkdb"
-version = "5.0.2"
+version = "5.0.3"
 description = "SmartKDB v5 – The Cognitive AI-Native Database Platform"
 readme = "README.md"
 authors = [
@@ -37,8 +37,11 @@ full = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/alhdrawi/smartkdb"
-Repository = "https://github.com/alhdrawi/smartkdb"
-"Bug Tracker" = "https://github.com/alhdrawi/smartkdb/issues"
-Documentation = "https://github.com/alhdrawi/smartkdb#readme"
+Homepage = "https://github.com/alhdrawiz6-ai/smartkdb"
+Repository = "https://github.com/alhdrawiz6-ai/smartkdb"
+"Bug Tracker" = "https://github.com/alhdrawiz6-ai/smartkdb/issues"
+Documentation = "https://smartkdb.readthedocs.io/"
+"Read the Docs" = "https://smartkdb.readthedocs.io/"
+Changelog = "https://github.com/alhdrawiz6-ai/smartkdb/blob/main/docs/CHANGELOG.md"
+
 
