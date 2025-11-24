@@ -2,7 +2,7 @@
 SmartKDB v5 - The Cognitive AI-Native Database Platform
 """
 
-__version__ = "5.0.3"
+__version__ = "5.0.4"
 
 from .core.engine import SmartKDB, KTable, QueryBuilder
 from .core.transaction import Transaction, TransactionManager, TransactionState

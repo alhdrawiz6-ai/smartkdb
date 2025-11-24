@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "smartkdb"
-version = "5.0.3"
+version = "5.0.4"
 description = "SmartKDB v5 – The Cognitive AI-Native Database Platform"
 readme = "README.md"
 authors = [
