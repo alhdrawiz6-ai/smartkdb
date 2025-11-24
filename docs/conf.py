@@ -8,7 +8,7 @@ sys.path.insert(0, os.path.abspath('..'))
 project = 'SmartKDB'
 copyright = '2024, Alhdrawi'
 author = 'Alhdrawi'
-release = '5.0.3'
+release = '5.0.5'
 
 # General configuration
 extensions = [

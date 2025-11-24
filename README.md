@@ -4,6 +4,7 @@
 
 [![PyPI version](https://badge.fury.io/py/smartkdb.svg)](https://badge.fury.io/py/smartkdb)
 [![Python](https://img.shields.io/pypi/pyversions/smartkdb.svg)](https://pypi.org/project/smartkdb/)
+[![Documentation](https://readthedocs.org/projects/smartkdb/badge/?version=latest)](https://smartkdb.readthedocs.io/)
 
 SmartKDB is a **local-first database** that's as easy as a Python dictionary, but with superpowers:
 - 🚀 **No setup** - Works instantly
@@ -51,14 +52,13 @@ print(results)  # [{'name': 'Bob', 'age': 30}]
 Run our interactive tutorial:
 
 ```bash
-python examples/quickstart.py
+python -c "from smartkdb import SmartKDB; help(SmartKDB)"
 ```
 
-This will show you:
-- ✅ Creating tables
-- ✅ CRUD operations (Create, Read, Update, Delete)
-- ✅ Querying with filters
-- ✅ Real-world examples
+**Or check our example files:**
+- [Quick Start Tutorial](https://github.com/alhdrawiz6-ai/smartkdb/blob/main/examples/quickstart.py)
+- [Transactions Demo](https://github.com/alhdrawiz6-ai/smartkdb/blob/main/examples/transactions.py)
+- [AI Features Demo](https://github.com/alhdrawiz6-ai/smartkdb/blob/main/examples/ai_features.py)
 
 ---
 
@@ -97,10 +97,13 @@ history = db.version_manager.get_history("users", "user_123")
 
 | Guide | Description |
 |:------|:------------|
-| 📘 [User Guide](docs/USER_GUIDE.md) | For beginners - Step-by-step tutorials |
-| 🛠️ [Developer Guide](docs/DEVELOPER_GUIDE.md) | For advanced users - API deep dive |
-| 🏗️ [Architecture](docs/ARCHITECTURE.md) | How SmartKDB works internally |
-| 🔌 [API Reference](docs/API_REFERENCE.md) | Complete method documentation |
+| 📘 [User Guide](https://smartkdb.readthedocs.io/en/latest/USER_GUIDE.html) | For beginners - Step-by-step tutorials |
+| 🛠️ [Developer Guide](https://smartkdb.readthedocs.io/en/latest/DEVELOPER_GUIDE.html) | For advanced users - API deep dive |
+| 🏗️ [Architecture](https://smartkdb.readthedocs.io/en/latest/ARCHITECTURE.html) | How SmartKDB works internally |
+| 🔌 [API Reference](https://smartkdb.readthedocs.io/en/latest/API_REFERENCE.html) | Complete method documentation |
+| 📦 [Installation](https://smartkdb.readthedocs.io/en/latest/INSTALLATION.html) | Detailed installation guide |
+
+**Full Documentation:** https://smartkdb.readthedocs.io/
 
 ---
 
@@ -137,7 +140,7 @@ users.update("admin@company.com", {"role": "superadmin"})
 users.delete("old_user@company.com")
 ```
 
-See more in [`examples/`](examples/) folder!
+See more in our [examples folder](https://github.com/alhdrawiz6-ai/smartkdb/tree/main/examples)!
 
 ---
 
@@ -145,7 +148,7 @@ See more in [`examples/`](examples/) folder!
 
 ```bash
 # Clone and run examples
-git clone https://github.com/alhdrawi/smartkdb
+git clone https://github.com/alhdrawiz6-ai/smartkdb
 cd smartkdb
 python examples/quickstart.py
 python examples/transactions.py
@@ -156,13 +159,13 @@ python examples/ai_features.py
 
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](docs/CONTRIBUTING.md)
+We welcome contributions! See [CONTRIBUTING.md](https://smartkdb.readthedocs.io/en/latest/CONTRIBUTING.html)
 
 ---
 
 ## 📄 License
 
-MIT License - See [LICENSE](LICENSE)
+MIT License - See [LICENSE](https://github.com/alhdrawiz6-ai/smartkdb/blob/main/LICENSE)
 
 ---
 
@@ -183,6 +186,16 @@ MIT License - See [LICENSE](LICENSE)
 - 🤖 AI/ML projects
 - 📊 Data analysis scripts
 - 🧪 Testing & experiments
+
+---
+
+## 🔗 Links
+
+- **PyPI**: https://pypi.org/project/smartkdb/
+- **Documentation**: https://smartkdb.readthedocs.io/
+- **GitHub**: https://github.com/alhdrawiz6-ai/smartkdb
+- **Issues**: https://github.com/alhdrawiz6-ai/smartkdb/issues
+- **Changelog**: https://smartkdb.readthedocs.io/en/latest/CHANGELOG.html
 
 ---
 
