@@ -5,14 +5,29 @@ Welcome to SmartKDB v5 - The Cognitive AI-Native Database Platform!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Getting Started:
 
+   INSTALLATION
    USER_GUIDE
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Development:
+
    DEVELOPER_GUIDE
    API_REFERENCE
    ARCHITECTURE
-   INSTALLATION
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Additional Resources:
+
    CONTRIBUTING
+   SECURITY
+   CHANGELOG
+   PUBLISHING_GUIDE
+   PROJECT_STRUCTURE
+   INTELLISENSE_UPGRADE
 
 Quick Start
 -----------
@@ -60,3 +75,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
